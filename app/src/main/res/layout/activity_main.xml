@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_qzone_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="qzoneListViewClick"
+        android:text="ListView(QQ空间)" />
+
+    <Button
+        android:id="@+id/btn_moments_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="momentsListViewClick"
+        android:text="ListView(微信朋友圈)" />
+
+    <Button
+        android:id="@+id/btn_qzone_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="qzoneRecyclerViewClick"
+        android:text="RecyclerView(QQ空间)" />
+
+    <Button
+        android:id="@+id/btn_moments_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="momentsRecyclerViewClick"
+        android:text="RecyclerView(微信朋友圈)" />
+
+    <Button
+        android:id="@+id/btn_moments_recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="circleRecyclerViewClick"
+        android:text="封面放大-RecyclerView(微信朋友圈)" />
+
+</LinearLayout>

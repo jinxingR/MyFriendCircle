@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://www.jitpack.io' }
+        maven { url "https://mirrors.tencent.com/nexus/repository/maven-public/" }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url 'https://www.jitpack.io' }
+        maven { url "https://mirrors.tencent.com/nexus/repository/maven-public/" }
+    }
+}
+rootProject.name = "MyFriendCircle"
+include ':app', ':LRecyclerview_library'
